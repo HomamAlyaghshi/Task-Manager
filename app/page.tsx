@@ -26,6 +26,17 @@ export default function Home() {
           Go to Tasks
         </Link>
       </div>
+      <footer className="py-4 text-center text-sm text-gray-500">
+        Developed by{" "}
+        <a
+          href="https://portfolio-dusky-sigma-50.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-gray-700 hover:text-blue-600 transition"
+        >
+          Homam Alyaghshi
+        </a>
+      </footer>
     </main>
   );
 }
